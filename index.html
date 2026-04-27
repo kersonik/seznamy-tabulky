@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabulky a seznamy</title>
+  </head>
+  <body>
+    <header>
+      <h1>seznamy a tabulky</h1>
+    </header>
+    <main>
+      <h2>Tvorba seznamů</h2>
+      <p>
+        Uspořádaný seznam (ordered list) Google Chrome Internet Explorer Mozilla
+        Firefox Neuspořádaný seznam (unordered list) IP adresy (např. IPv4:
+        192.168.23.1, IPv6: ) DNS adresy (např. strojka.opava.cz) URL adresy
+        (např. http://moodle.sspu-opava.cz:81/course/view.php?id=95) Vnořený
+        seznam Hardware Základní jednotka procesor (CPU) paměť (RAM) pevný disk
+        (HDD) Vstupní zařízení klávesnice myš Výstupní zařízení monitor tiskárna
+        Software Základní programové vybavení operační systém ovladač firmware
+        Aplikace textový editor prohlížeč antivirový program Popisný seznam
+        (description list) Internet Society (ISOC) Mezinárodní organizace pro
+        globální koordinaci a kooperaci v rámci internetu. World Wide Web
+        Consortium (W3C) Mezinárodní konsorcium, jehož členové společně s
+        veřejností vyvíjejí webové standardy pro službu WWW. Internet Assigned
+        Numbers Authority (IANA) Organizace, která dohlíží celosvětově na
+        přidělování IP adres, správu kořenových zón DNS, definování typů medií
+        pro MIME a další náležitosti internetových protokolů.
+      </p>
+      <h2>Tvorba tabulek</h2>
+      <p>
+        Komplexní tabulka v HTML může být tvořena záhlavím, tělem a zápatím.
+        Pomocí atributů colspan a rowspan můžeme vytvořit sloučené buňky, které
+        přesahují přes více sloupců i řádků.
+      </p>
+      <table border ="1">
+        <caption>
+          Studijní obor na SŠPU Opava - školní rok 2016/2017
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Název oboru</th>
+                <th rowspan="2">Kód oboru</th>
+                <th rowspan="2">Počet tříd</th>
+                <th colspan="3">Počty žáků</th>
+            </tr>
+            <tr>
+                <th>Chlapci</th>
+                <th>Dívky</th>
+                <th>Celkem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-right">Lorem.</td>
+                <td class="text-right">Nostrum.</td>
+                <td class="text-right">Eaque?</td>
+                <td class="text-right">Ex.</td>
+                <td class="text-right">Explicabo.</td>
+                <td class="text-right">Repellat?</td>
+            </tr>
+            <tr>
+                <td class="text-right">Lorem.</td>
+                <td class="text-right">Repellat.</td>
+                <td class="text-right">Dolor.</td>
+                <td class="text-right">Alias.</td>
+                <td class="text-right">Repellendus!</td>
+                <td class="text-right">Magni.</td>
+            </tr>
+            <tr>
+                <td class="text-right">Lorem.</td>
+                <td class="text-right">Totam.</td>
+                <td class="text-right">Repudiandae.</td>
+                <td class="text-right">Ullam.</td>
+                <td class="text-right">Deleniti?</td>
+                <td class="text-right">Dolores.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Celkové údaje</td>
+                <td>13 tříd</td>
+                <td colspan="3">335 žáků</td>
+            </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer>&copy; 2026 <b>Josef Šumšal </b></footer>
+  </body>
+</html>
