@@ -1,0 +1,21 @@
+Tvorba seznamů
+Uspořádaný seznam (ordered list)
+Google Chrome
+
+Internet Explorer
+
+Mozilla Firefox
+
+Neuspořádaný seznam (unordered list)
+IP adresy (např. IPv4: 192.168.23.1, IPv6: )
+
+DNS adresy (např. strojka.opava.cz)
+
+URL adresy (např. http://moodle.sspu-opava.cz:81/course/view.php?id=95)
+
+Vnořený seznam
+Hardware Základní jednotka procesor (CPU) paměť (RAM) pevný disk (HDD) Vstupní zařízení klávesnice myš Výstupní zařízení monitor tiskárna Software Základní programové vybavení operační systém ovladač firmware Aplikace textový editor prohlížeč antivirový program
+Popisný seznam (description list)
+Internet Society (ISOC) Mezinárodní organizace pro globální koordinaci a kooperaci v rámci internetu. World Wide Web Consortium (W3C) Mezinárodní konsorcium, jehož členové společně s veřejností vyvíjejí webové standardy pro službu WWW. Internet Assigned Numbers Authority (IANA) Organizace, která dohlíží celosvětově na přidělování IP adres, správu kořenových zón DNS, definování typů medií pro MIME a další náležitosti internetových protokolů.
+Tvorba tabulek
+Komplexní tabulka v HTML může být tvořena záhlavím, tělem a zápatím. Pomocí atributů colspan a rowspan můžeme vytvořit sloučené buňky, které přesahují přes více sloupců i řádků.
