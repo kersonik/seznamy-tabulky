@@ -7,10 +7,10 @@ This static web project demonstrates the creation of HTML lists and a complex ta
 
 ### Lists
 The project contains four types of HTML lists:
-* Ordered list:** Contains examples of web browsers.
-* Unordered list:** Provides examples of IP, DNS, and URL addresses.
-* Nested list:** Categorizes Hardware and Software into subcategories.
-* Description list:** Explains the ISOC, W3C, and IANA organizations.
+* **Ordered list:** Contains examples of web browsers.
+* **Unordered list:** Provides examples of IP, DNS, and URL addresses.
+* **Nested list:** Categorizes Hardware and Software into subcategories.
+* **Description list:** Explains the ISOC, W3C, and IANA organizations.
 
 ### Tables
 A complex HTML table is included:
