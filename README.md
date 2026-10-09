@@ -1,31 +1,106 @@
-# Lists and Tables
+# 📊 Semantic HTML Lists & Complex Tables
 
-## Project Overview
-This static web project demonstrates the creation of HTML lists and a complex table based on the provided template. It includes data about study programs at SŠPU Opava for the 2016/17 school year.
+> A clean, responsive educational web demonstration illustrating semantic HTML5 lists and complex multi-span tables with CSS styling and responsive media queries, built according to assignment specifications for SŠPU Opava.
 
-## Implemented Content
+[![Standards](https://img.shields.io/badge/Standards-HTML5%20%7C%20CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Design](https://img.shields.io/badge/Design-Responsive%20(Mobile%20Friendly)-informational?style=for-the-badge)](style.css)
+[![Project](https://img.shields.io/badge/Institution-SŠPU%20Opava-red?style=for-the-badge)](https://www.sspu-opava.cz/)
+[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](LICENSE)
 
-### Lists
-The project contains four types of HTML lists:
-* **Ordered list:** Contains examples of web browsers.
-* **Unordered list:** Provides examples of IP, DNS, and URL addresses.
-* **Nested list:** Categorizes Hardware and Software into subcategories.
-* **Description list:** Explains the ISOC, W3C, and IANA organizations.
+---
 
-### Tables
-A complex HTML table is included:
-* It consists of a header, body, and footer.
-* The `colspan` and `rowspan` attributes are used to merge cells across multiple columns and rows.
-* It displays the number of students (boys and girls) across specific programs: Information Technology, Engineering, and Art.
+## 📌 Project Overview
 
-## File Structure
-* **`index.html`:** The main document containing semantic HTML (`ol`, `ul`, `dl`, `table`, `thead`, `tbody`, `tfoot`).
-* **`style.css`:** Cascading stylesheets defining the visual appearance, colors, fonts, and responsive design for screen widths up to 800px.
-* **`predloha.txt` / `predloha.pdf`:** The original assignments and source texts used to build the content structure.
+This project showcases fundamental web structuring techniques by translating a formal school specification (`predloha/predloha.pdf`) into semantic, standards-compliant HTML5 and responsive CSS3. 
 
-## How to Run
-This is a pure HTML and CSS project, meaning no web server is required. `index.html` and `style.css` must be located in the same folder.
+The demonstration emphasizes:
+1. All four standard HTML list structures.
+2. A complex tabular data matrix using advanced cell spanning (`rowspan` and `colspan`).
+3. Clean, responsive styling for viewports down to 800px.
 
-* **Arch Linux:** Run `xdg-open index.html` in the terminal, or open the file directly via your file manager (e.g., Dolphin, Thunar).
-* **Ubuntu:** Double-click `index.html` in the file manager (Nautilus) or run `xdg-open index.html` in the terminal.
-* **Windows 10 / 11:** Double-click the `index.html` file in File Explorer. It will automatically open in your default web browser (e.g., Edge or Chrome).
+---
+
+## 📑 Implemented Components
+
+### 1. Semantic HTML Lists
+The document implements four distinct list archetypes:
+
+- **Numbered / Ordered List (`<ol>`)**: Sequential listing of modern web browsers with custom numeric formatting.
+- **Unordered List (`<ul>`)**: Categorized technical networking elements (IPv4 / IPv6 addresses, DNS records, and URL anatomy).
+- **Multi-Level Nested List**: Hierarchical taxonomy separating computer engineering domains into Hardware components and Software classifications.
+- **Description / Definition List (`<dl>`, `<dt>`, `<dd>`)**: Structured glossary defining international internet governance bodies (**ISOC**, **W3C**, **IANA**).
+
+---
+
+### 2. Complex Data Table Matrix
+The project features a structured data table documenting student enrollment statistics at SŠPU Opava across academic disciplines:
+
+```
++-------------------------------------------------------------------------+
+|                  SŠPU Opava — Statistika oborů 2016/17                  |
++----------------------+--------------------+-----------------------------+
+|                      |   Počet chlapců    |        Počet dívek          |
+| Obor vzdělání        +---------+----------+----------+------------------+
+|                      | 1. roč. | 2. roč.  | 1. roč.  | 2. roč.          |
++----------------------+---------+----------+----------+------------------+
+| Informační technologie      ...                 ...                     |
+| Strojírenství               ...                 ...                     |
+| Umělecké obory              ...                 ...                     |
++-------------------------------------------------------------------------+
+| Celkový součet (tfoot)                          ...                     |
++-------------------------------------------------------------------------+
+```
+
+#### Structural Highlights:
+- **Semantic Sections**: Complete separation of table structure using `<thead>`, `<tbody>`, and `<tfoot>`.
+- **Merged Cell Coordinates**: Strategic usage of `rowspan` for multi-row subject groupings and `colspan` for nested subheaders and summary totals.
+- **Header Scopes**: Accessible data associations using `<th>` cells with appropriate styling.
+
+---
+
+## 🎨 Styling & Responsive Layout (`style.css`)
+
+- **Balanced Color Palette**: Subtle alternating row background fills for effortless readability.
+- **Typography**: Clean, readable sans-serif typography with calibrated cell padding.
+- **Responsive Viewport Media Query**: Graceful scaling and horizontal scroll wrapping for viewports at or below `800px` screen width.
+
+---
+
+## 📁 Repository Structure
+
+```
+seznamy-tabulky/
+├── index.html       # Primary semantic HTML5 document
+├── style.css        # Cascading stylesheet with typography and table styles
+├── predloha/        # Original assignment specifications
+│   ├── predloha.pdf # Assignment reference PDF
+│   └── predloha.txt # Source data specification text
+└── README.md        # Technical project documentation
+```
+
+---
+
+## 🚀 How to Open & Preview
+
+No build steps or local servers are necessary.
+
+### Direct Browser Launch
+- **Linux**:
+  ```bash
+  xdg-open index.html
+  ```
+- **macOS**:
+  ```bash
+  open index.html
+  ```
+- **Windows**:
+  Double-click `index.html` in File Explorer or run:
+  ```powershell
+  Start-Process index.html
+  ```
+
+---
+
+## 📄 License
+
+Created for educational purposes at SŠPU Opava. Licensed under the MIT License.
